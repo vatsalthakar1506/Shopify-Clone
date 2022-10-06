@@ -10,13 +10,15 @@
       tailwind.config = {
         theme: {
           screens: {
-            sm: "375px",
+            sm: "320px",
 
             md: "768px",
 
-            lg: "976px",
+            lg: "1024px",
 
-            xl: "1440px",
+            xl: "1240px",
+
+            xxl: "1485px",
           },
 
           extend: {
@@ -153,7 +155,7 @@
       <div class="md:ml-20 sm:ml-3">
         <div class="">
           <h1
-            class="md:text-5xl sm:text-3xl font-bold leading-normal text-[#004c3f]"
+            class="md:text-5xl sm:text-3xl sm:text-center md:text-left font-bold leading-normal text-[#004c3f]"
           >
             The easiest way to sell <br />
             online in India
@@ -223,7 +225,7 @@
       </div>
 
       <div
-        class="md:grid-cols-3 xl:grid-cols-5 md:items-center xl:flex-row justify-between mt-12 mx-14 sm:grid sm:grid-cols-1 space-y-4"
+        class="md:grid-cols-3 xl:grid xl:grid-cols-3 xxl:grid-cols-5 md:items-center justify-between mt-12 mx-14 sm:flex sm:flex-col items-center space-y-4"
       >
         <div class="mt-4">
           <img
